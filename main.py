@@ -43,8 +43,6 @@ def save_to_csv(subtitle_duration, output_file):
         for subtitle in subtitle_duration:
             writer.writerow(subtitle)
 
-
-
 def plot_charts(subtitle_duration):
     # Extracting data for plotting
     durations = [sub['duration'] for sub in subtitle_duration]
@@ -52,35 +50,60 @@ def plot_charts(subtitle_duration):
     num_letters = [sub['num_letters'] for sub in subtitle_duration]
     texts = [sub['text'] for sub in subtitle_duration]
 
+    # Create a single figure to hold all subplots
+    from plotly.subplots import make_subplots
+    fig = make_subplots(
+        rows=2, cols=2,
+        subplot_titles=('Duration vs Number of Words', 'Duration vs Number of Letters',
+                        'Text with Maximum and Minimum Duration', 'Number of Words vs Number of Letters')
+    )
+
     # Duration vs Number of Words
-    fig1 = go.Figure(data=go.Scatter(x=durations, y=num_words, mode='markers', text=texts))
-    fig1.update_layout(title='Duration vs Number of Words', xaxis_title='Duration (s)', yaxis_title='Number of Words')
-    fig1.show()
+    fig.add_trace(
+        go.Scatter(x=durations, y=num_words, mode='markers', text=texts),
+        row=1, col=1
+    )
+    fig.update_xaxes(title_text="Duration", row=1, col=1)
+    fig.update_yaxes(title_text="Number of Words", row=1, col=1)
 
     # Duration vs Number of Letters
-    fig2 = go.Figure(data=go.Scatter(x=durations, y=num_letters, mode='markers', text=texts))
-    fig2.update_layout(title='Duration vs Number of Letters', xaxis_title='Duration (s)', yaxis_title='Number of Letters')
-    fig2.show()
+    fig.add_trace(
+        go.Scatter(x=durations, y=num_letters, mode='markers', text=texts),
+        row=1, col=2
+    )
+    fig.update_xaxes(title_text="Duration", row=1, col=2)
+    fig.update_yaxes(title_text="Number of Letters", row=1, col=2)
 
     # Text with Maximum and Minimum Duration
     max_duration_index = durations.index(max(durations))
     min_duration_index = durations.index(min(durations))
     max_duration_text = texts[max_duration_index]
     min_duration_text = texts[min_duration_index]
-    fig3 = go.Figure(data=[go.Bar(x=['Max Duration', 'Min Duration'], y=[max(durations), min(durations)], text=[max_duration_text, min_duration_text]))
-    fig3.update_layout(title='Text with Maximum and Minimum Duration', xaxis_title='Type', yaxis_title='Duration (s)')
-    fig3.show()
+    fig.add_trace(
+        go.Bar(x=['Max Duration', 'Min Duration'], y=[max(durations), min(durations)], text=[max_duration_text, min_duration_text]),
+        row=2, col=1
+    )
+    fig.update_xaxes(title_text="Duration", row=2, col=1)
+    fig.update_yaxes(title_text="Text", row=2, col=1)
 
     # Number of Words vs Number of Letters
-    fig4 = go.Figure(data=go.Scatter(x=num_words, y=num_letters, mode='markers', text=texts))
-    fig4.update_layout(title='Number of Words vs Number of Letters', xaxis_title='Number of Words', yaxis_title='Number of Letters')
-    fig4.show()
+    fig.add_trace(
+        go.Scatter(x=num_words, y=num_letters, mode='markers', text=texts),
+        row=2, col=2
+    )
+    fig.update_xaxes(title_text="Number of Words", row=2, col=2)
+    fig.update_yaxes(title_text="Number of Letters", row=2, col=2)
 
+    # Update layout for the combined figure
+    fig.update_layout(title_text='Subtitle Analysis Charts', height=800, width=1000)
+    fig.show()
+
+
+
+
+subtitles = parse_srt('reel15_new.srt')
+subtitle_duration = calculate_subtitle_duration(subtitles)
 # Call the function to plot charts
 plot_charts(subtitle_duration)
-
-# Replace 'your_srt_file.srt' with the path to your SRT file
-# Replace 'output.csv' with the desired output CSV file path
-subtitles = parse_srt('reel15.srt')
-subtitle_duration = calculate_subtitle_duration(subtitles)
 save_to_csv(subtitle_duration, 'output.csv')
+

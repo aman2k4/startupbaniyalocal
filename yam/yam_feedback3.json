@@ -1,0 +1,93 @@
+{
+  "title": "YAM Feedback Form",
+  "description": "We value your opinion and would love to hear your thoughts about our yoga community. This survey will take approximately 10 minutes to complete. Thank you for your time!",
+  "fields": [
+    {
+      "type": "welcomeScreen",
+      "title": "Welcome to YAM Feedback Form",
+      "description": "We are trying to understand our community better. Your feedback will help us improve and grow. There's a reward at the end if you choose to share your email with us!"
+    },
+    {
+      "type": "multipleChoice",
+      "question": "What is your relationship with YAM?",
+      "choices": ["Current customer", "Former customer", "Not yet a customer"],
+      "required": true
+    },
+    {
+      "type": "yesNo",
+      "question": "Do you practice yoga?",
+      "description": "This question is for those who are not yet customers.",
+      "logic": {
+        "type": "field",
+        "value": "Not yet a customer"
+      }
+    },
+    {
+      "type": "multipleChoice",
+      "question": "What factors are important to you when choosing a yoga studio?",
+      "choices": ["Price", "Location", "Instructor", "Class variety", "Community vibe", "Other"],
+      "description": "You can select multiple options.",
+      "logic": {
+        "type": "field",
+        "value": "Not yet a customer"
+      }
+    },
+    {
+      "type": "shortText",
+      "question": "If you selected 'Other', please specify."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "How did you find out about YAM?",
+      "choices": ["Friend", "Social Media", "Google Search", "Other"],
+      "required": true
+    },
+    {
+      "type": "rating",
+      "question": "How would you rate your overall experience with YAM?",
+      "description": "1 being the worst and 5 being the best.",
+      "logic": {
+        "type": "field",
+        "value": "Current customer"
+      }
+    },
+    {
+      "type": "multipleChoice",
+      "question": "What could YAM improve on?",
+      "choices": ["Booking process", "Class variety", "Instructor quality", "Community vibe", "Price", "Other"],
+      "description": "You can select multiple options.",
+      "logic": {
+        "type": "field",
+        "value": "Current customer"
+      }
+    },
+    {
+      "type": "shortText",
+      "question": "If you selected 'Other', please specify."
+    },
+    {
+      "type": "multipleChoice",
+      "question": "Why did you stop attending YAM?",
+      "choices": ["Price", "Location", "Instructor", "Class variety", "Community vibe", "Other"],
+      "description": "You can select multiple options.",
+      "logic": {
+        "type": "field",
+        "value": "Former customer"
+      }
+    },
+    {
+      "type": "shortText",
+      "question": "If you selected 'Other', please specify."
+    },
+    {
+      "type": "email",
+      "question": "Would you like to enter our reward draw? If so, please enter your email address.",
+      "description": "This is optional and your email will only be used for the purpose of the draw."
+    },
+    {
+      "type": "endScreen",
+      "title": "Thank you for your feedback!",
+      "description": "Your feedback is valuable to us and will help us improve our community. If you have entered the reward draw, we will contact you if you are the winner. Namaste!"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "welcome_screen": {
+    "title": "YAM Feedback Campaign",
+    "description": "Help us understand what's working and what's not. Your input will help us grow and improve. (approx. 10-12 minutes)",
+    "button_text": "Start"
+  },
+  "question_groups": [
+    {
+      "title": "Current Customers",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "What brings you to YAM?",
+          "choices": [
+            "Affordability",
+            "Diverse classes",
+            "Laid-back setting",
+            "Community vibe",
+            "Other (please specify)"
+          ]
+        },
+        {
+          "type": "rating",
+          "question": "How satisfied are you with YAM overall?",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "type": "short_text",
+          "question": "What do you like most about YAM?"
+        },
+        {
+          "type": "short_text",
+          "question": "What do you wish YAM had more of?"
+        },
+        {
+          "type": "rating",
+          "question": "How easy is it to book a class?",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Former Customers",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Why did you stop coming to YAM?",
+          "choices": [
+            "Moved away",
+            "Found another studio",
+            "Lost interest",
+            "Scheduling conflicts",
+            "Other (please specify)"
+          ]
+        },
+        {
+          "type": "short_text",
+          "question": "What did you do instead of coming to YAM?"
+        },
+        {
+          "type": "rating",
+          "question": "How likely are you to return to YAM?",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Non-Customers",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Do you practice yoga?",
+          "choices": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": "short_text",
+          "question": "How do you choose your yoga studio?"
+        },
+        {
+          "type": "rating",
+          "question": "How important is affordability in a yoga studio?",
+          "scale": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "type": "short_text",
+          "question": "What would make you consider trying YAM?"
+        }
+      ]
+    }
+  ],
+  "end_screen": {
+    "title": "Thank you!",
+    "description": "Your input is invaluable. If you'd like to stay updated on our progress and receive a special reward, please leave your email below (optional).",
+    "button_text": "Submit",
+    "fields": [
+      {
+        "type": "email",
+        "label": "Email (optional)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+    "welcome_screen": {
+      "title": "Welcome to the YAM Feedback Form!",
+      "description": "Thank you for taking the time to provide us with your valuable feedback. Your input will help us improve our services and grow as a community. This form will take approximately 10-15 minutes to complete. Your responses are anonymous, but you have the option to provide your email at the end for a reward.",
+      "button_text": "Start Feedback"
+    },
+    "question_groups": [
+      {
+        "title": "Current Customers of YAM",
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "question": "How long have you been a customer of YAM?",
+            "choices": [
+              "Less than 6 months",
+              "6 months to 1 year",
+              "1-2 years",
+              "2+ years"
+            ]
+          },
+          {
+            "type": "multiple_choice",
+            "question": "What keeps you coming back to YAM?",
+            "choices": [
+              "Affordability",
+              "Diverse classes",
+              "Laid-back atmosphere",
+              "Instructors",
+              "Location"
+            ]
+          },
+          {
+            "type": "multiple_choice",
+            "question": "What improvements would you like to see at YAM?",
+            "choices": [
+              "More class variety",
+              "Improved booking system",
+              "Enhanced studio vibes",
+              "Additional amenities",
+              "Other (please specify)"
+            ]
+          },
+          {
+            "type": "rating",
+            "question": "On a scale of 1 to 10, how likely are you to recommend YAM to a friend or colleague?",
+            "labels": {
+              "1": "Not Likely",
+              "10": "Very Likely"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Former Customers of YAM",
+        "questions": [
+          {
+            "type": "multiple_choice",
+            "question": "Why did you stop attending classes at YAM?",
+            "choices": [
+              "Found another yoga studio",
+              "Change in schedule",
+              "Not satisfied with classes",
+              "Moved away",
+              "Other (please specify)"
+            ]
+          },
+          {
+            "type": "multiple_choice",
+            "question": "What could have kept you as a customer at YAM?",
+            "choices": [
+              "Lower pricing",
+              "Different class offerings",
+              "Improved facilities",
+              "Better communication",
+              "Other (please specify)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Potential Customers of YAM",
+        "questions": [
+          {
+            "type": "yes_no",
+            "question": "Do you currently practice yoga?",
+            "required": true
+          },
+          {
+            "type": "multiple_choice",
+            "question": "How do you typically select a yoga studio?",
+            "choices": [
+              "Location",
+              "Class offerings",
+              "Instructor reputation",
+              "Affordability",
+              "Word of mouth",
+              "Other (please specify)"
+            ],
+            "required": true
+          },
+          {
+            "type": "multiple_choice",
+            "question": "How did you first hear about YAM?",
+            "choices": [
+              "Online search",
+              "Social media",
+              "Word of mouth",
+              "Event",
+              "Other (please specify)"
+            ],
+            "required": true
+          },
+          {
+            "type": "multiple_choice",
+            "question": "What would motivate you to try YAM?",
+            "choices": [
+              "Affordability",
+              "Variety of classes",
+              "Laid-back atmosphere",
+              "Instructor reputation",
+              "Location",
+              "Other (please specify)"
+            ],
+            "required": true
+          }
+        ]
+      }
+    ],
+    "endings": {
+      "title": "Thank You!",
+      "description": "Your feedback is incredibly valuable to us. We appreciate you taking the time to share your thoughts and opinions. If you would like to receive a reward or stay updated with YAM news, please provide your email below (optional).",
+      "button_text": "Submit Feedback"
+    }
+  }
+  

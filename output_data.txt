@@ -1,0 +1,214 @@
+49.6029432,6.1341549,#333,marker,yogaloft. Luxembourg - Gare
+49.6116233,6.1483124,#333,marker,Kaliyoga Luxembourg + Studio "YOU"
+49.6194917,6.1252729,#333,marker,yogaloft. Luxembourg - Limpertsberg
+49.5184963,6.0724614,#333,marker,Soham Maison du bien-être Luxembourg
+49.6182995,6.069116,#333,marker,yogaloft. TROPICS - Hot Yoga Strassen
+49.6283017,6.1644293,#333,marker,yogaloft. Luxembourg - Kirchberg
+49.6121228,6.1322699,#333,marker,Iyengar Yoga Luxembourg - Floriane Palmier
+49.6211146,6.068064,#333,marker,yogaloft. Luxembourg - Strassen
+49.6121425,6.1323224,#333,marker,Ashtanga Yoga Luxembourg
+49.5392712,6.1441315,#333,marker,Yoga Shala
+49.5996967,6.1370753,#333,marker,Mana Yoga
+49.618976,6.1172871,#333,marker,Jivamukti Yoga Luxembourg
+49.6034927,6.1343305,#333,marker,AéroYoga Luxembourg
+49.6192274,6.0783093,#333,marker,Yoga La Source
+49.6244958,6.1188065,#333,marker,BYLU Hot Yoga Luxembourg
+49.612454,6.1184444,#333,marker,Ongizatea Pilates & Yoga
+49.66806,6.1336795,#333,marker,YogaBalance - Walferdange
+49.5988588,6.1226399,#333,marker,Flow Studio
+49.5635796,6.0640666,#333,marker,Time2Pilates
+49.6576741,6.1291859,#333,marker,Tara Yoga & Wellness
+49.5040183,6.2788893,#333,marker,Céline Iannantuoni Yoga & Ayurveda
+49.5617214,6.1485772,#333,marker,Aline Nowacki
+49.515608,6.307212,#333,marker,Fit Me Well Trainer
+49.5031372,6.2835512,#333,marker,Mondorf Parc Hôtel & Spa
+49.5258451,6.1341615,#333,marker,PURE Pilates Luxembourg
+49.5870571,6.2283721,#333,marker,Yog'attitude
+49.5754549,6.2492847,#333,marker,Yoga & Ayurveda John Schlammes
+49.6680773,6.1336418,#333,marker,AUM Yoga Luxembourg
+49.6158796,6.2087848,#333,marker,Basic-Fit Luxembourg Sandweiler 24/7
+49.5110846,5.9335927,#333,marker,No&Me Yogafitsophro
+49.566536,5.9093837,#333,marker,Yogaereo Luxembourg
+49.5245,5.89007,#333,marker,Space Yoga Verônica De Medeiros
+49.8493342,5.8995084,#333,marker,little YOGA
+49.8352497,5.7866921,#333,marker,Studio-tantra
+49.744136,5.9689617,#333,marker,Yogatime Schwebach - Yoga & Réflexologie
+49.6194917,6.1252729,#333,marker,Rise Barre + Pilates
+49.6194917,6.1252729,#333,marker,petit OM - Family Yoga by yogaloft. Luxembourg
+49.6456987,6.1264343,#333,marker,Yoga Spirit Studio Luxembourg
+49.8049442,6.4043588,#333,marker,eVital Echternach Fitnessstudio/Gym
+49.6576887,6.1316472,#333,marker,Yoga - La Source
+49.627712,6.1631194,#333,marker,Sanctuary Wellness by YL - Kirchberg
+49.63905,6.1454817,#333,marker,Lorraine Coach Pilates à domicile et en salle Luxembourg
+49.628912,6.1523719,#333,marker,LuxChiro - Scott Oliver, Hazel Teferle, & Camila Vetter
+49.6197335,6.1259031,#333,marker,Urban Leaf
+49.6581698,6.1311909,#333,marker,Iyengar Yoga Luxembourg
+49.6194917,6.1252729,#333,marker,Sanctuary Wellness by YL - Limpertsberg
+49.6528511,6.2627288,#333,marker,Body Power and Posture
+49.8153495,6.13332,#333,marker,Mauraexplorer.yoga
+49.7373923,6.0187199,#333,marker,Ginkgo Studio
+49.5617214,6.1485772,#333,marker,Camille Natural O - Coach Hygiene Of Life & Professeure De Yoga
+49.6036137,6.1242268,#333,marker,RajaYoga Luxembourg
+49.5741532,6.1611223,#333,marker,Thrive Studio
+49.574418,6.1606659,#333,marker,Clare Marie Pilates
+49.878185,5.9885642,#333,marker,Live4yoga
+49.9641633,5.8257161,#333,marker,Studiose
+49.6065719,6.1101227,#333,marker,yogaloft. Luxembourg - Merl
+49.8153495,6.13332,#333,marker,Yogalife Luxembourg
+49.7142,6.25241,#333,marker,Prana Works Sàrl
+49.6143825,6.1568734,#333,marker,Kelsey Hopper Yoga
+49.6455179,6.1267482,#333,marker,Fitness Coaching Beggen
+49.5685328,6.1525276,#333,marker,Wellness by Jane
+49.8153495,6.13332,#333,marker,anandamoonlight
+49.6300579,6.1749322,#333,marker,praticayoga
+49.6291274,6.1158402,#333,marker,Laura Eyer Yoga
+49.6305053,6.1753759,#333,marker,le Yoga des enfants
+49.6187976,6.1195436,#333,marker,Tom J. Koster
+49.6244958,6.1188065,#333,marker,Unique-body.com
+49.6349232,6.1412744,#333,marker,Drescherhaus
+49.6506491,6.1283323,#333,marker,Basic-Fit Bereldange 24/7
+49.618586,6.1236319,#333,marker,Parenthese
+49.6519011,6.1286592,#333,marker,Queen Zone
+49.5049058,5.9459252,#333,marker,Flowbox Yoga & Crossfit
+49.5452786,5.8387623,#333,marker,Centre du Mouvement
+49.57706,6.13765,#333,marker,Centre de remise en forme Fitness Zone - Fitness, Zumba, et autres cours à Howald
+49.5614622,5.8718728,#333,marker,Yoga Club de la commune de Pétange Asbl
+49.5454605,5.8286362,#333,marker,Zumbachicas.lu
+49.6210512,6.0728506,#333,marker,House of Om | Yoga, Barre, Pilates & More
+49.623552,6.1519527,#333,marker,Coque National Sports and Culture Centre
+50.0619402,6.0015273,#333,marker,Kris - Yin Yoga & Hyla Vertriebspartner
+50.1394605,6.0780137,#333,marker,Back to Balance
+49.8987966,6.0370577,#333,marker,Ananda living yoga
+49.4955585,5.9850142,#333,marker,Kineform
+49.4896945,6.0816761,#333,marker,Alma Training Center
+49.7571056,6.0988898,#333,marker,CK Fitness Mersch
+49.9405196,5.8805354,#333,marker,The Smile Du Lotus
+49.5066128,5.988266,#333,marker,Yoga Sab
+49.4942293,5.9679936,#333,marker,Aeclectica - Aerial Yoga, Bungee Fitness & Beyond
+49.4891885,5.9734253,#333,marker,Annafiit Rocchio Anna
+49.501674,5.944169,#333,marker,Yoga In Luxembourg Yogaharmony
+49.5115201,5.9811976,#333,marker,CK Fitness Esch
+49.4936857,5.9801763,#333,marker,Cabinet Gutenkauf Frank
+49.4935435,6.0374831,#333,marker,Grüneisen Petra
+49.4914421,5.9775376,#333,marker,AU Moment Présent
+49.845375,6.12702,#333,marker,Perla Yoga Luxembourg
+49.8153495,6.13332,#333,marker,Ananda living yoga
+50.0100773,6.0923661,#333,marker,Yoga & Fitness Coach - Natascha Reusch
+50.15681,6.04888,#333,marker,5ème Elément
+49.6615808,6.0824996,#333,marker,Yoga Home Luxembourg
+49.5708677,6.1592256,#333,marker,Yoga Hesper Park Alzenger Yogafraen
+49.6530137,6.2256455,#333,marker,Yoga Susanne Mönch
+49.6672562,6.1288941,#333,marker,PIDAL - Piscine Intercommunale de l'Alzette
+49.8683707,6.1596226,#333,marker,Yoga Diekirch (Hatha Yoga)
+49.9638648,5.8575157,#333,marker,C&A
+49.6200537,6.1011868,#333,marker,The Holistic Corner by Mia Voss
+49.49971,5.9771265,#333,marker,Pool Escher Schwemm
+49.5034958,6.0112317,#333,marker,Piscine
+49.493887,5.9753626,#333,marker,Eden Sara
+49.5689118,6.1718408,#333,marker,Bien Naître
+49.783067,6.5114987,#333,marker,Anne Eppers Yoga
+49.6976901,6.1295718,#333,marker,HomeFitnessLu
+49.847355,6.0331492,#333,marker,B&B OA6 Casa
+49.8470856,6.0334675,#333,marker,Schwammschoul
+49.7589129,6.5111135,#333,marker,Physiotherapy Massage Schnarrbach Anja
+49.6523395,6.2586039,#333,marker,YAAH YOGA Niederanven - Yoga, wellness, therapy, sound healing, seminars, concerts & events
+49.705737,6.251335,#333,marker,CK Fitness Junglinster
+49.7575103,6.0984421,#333,marker,C&A
+49.756408,6.100546,#333,marker,TRAFIC MERSCH
+49.6415378,6.2746241,#333,marker,Angelika Nettemann
+49.702808,6.3993192,#333,marker,Annapurna
+50.0904565,6.0832235,#333,marker,yourbestlife - Tom De Bondt
+49.7450544,6.0963993,#333,marker,Yoga um Haff Sàrl
+49.730595,6.126013,#333,marker,Yoga Um Haff
+49.7429328,6.0913594,#333,marker,Centre Aquatique Krounebierg
+49.7422038,6.0920581,#333,marker,Krounebierg Omnisports Center
+49.6523395,6.2586039,#333,marker,Healing Hands Luxembourg
+49.6823851,6.4501068,#333,marker,Piscine de Grevenmacher
+49.6769736,6.3925673,#333,marker,Aktiva Bewegungs- & Gesundheitszentrum
+49.8662061,6.1591966,#333,marker,Yoga
+49.7106421,6.2496159,#333,marker,Kiné Jonglenster Carmen Kläs-Niels Zimmer
+49.6136133,6.4069889,#333,marker,Reiki with Federica
+49.7687332,6.2069604,#333,marker,Feel your body
+49.7130556,6.4978604,#333,marker,Werth Boris
+49.8125501,6.4215401,#333,marker,JessyXenia Body, Mind & Soul
+49.8197474,6.4748637,#333,marker,PURA well-being
+49.8878,5.81048,#333,marker,Wellness Boulaide
+49.6307723,6.0209615,#333,marker,Dunja
+49.618418,6.0696116,#333,marker,Daniela Holderer Yoga Luxembourg
+49.6217739,6.0754579,#333,marker,My Happy Place SARL
+49.6451733,5.9989057,#333,marker,César-Luga-Centre Réflexologie Yoga
+49.6211146,6.068064,#333,marker,Rise Barre + Pilates
+49.6450497,5.9902852,#333,marker,Pilates Center
+49.6311868,6.0154628,#333,marker,F’Care Studio
+49.6217739,6.0754579,#333,marker,My Happy Fertility
+49.6188184,6.0807637,#333,marker,SportActivator S.a r.l.-S.
+49.6192006,6.0783316,#333,marker,Iyengar Yoga Luxembourg
+49.6231903,6.0103253,#333,marker,Dunja
+49.6300642,6.026013,#333,marker,Angelika Nettemann
+49.604948,6.1037556,#333,marker,Exhale yoga & retreats
+49.7236945,6.2016071,#333,marker,Healthatwork
+49.6024303,6.1311478,#333,marker,Pilates Studio Luxembourg
+49.6036137,6.1242268,#333,marker,We love yoga
+49.6013807,6.1286595,#333,marker,We love yoga
+49.6049361,6.1037587,#333,marker,MAMALOVE YOGA
+49.6094501,6.1076791,#333,marker,Soulid
+49.6046246,6.1305059,#333,marker,Pilates Alaya Luxembourg
+49.6035826,6.0853607,#333,marker,Smile Kids Sàrl
+49.6140113,6.1189756,#333,marker,Pilates With Anne
+49.6110565,6.1297368,#333,marker,Pilates & Yoga Motion
+49.5881285,6.1387235,#333,marker,Kuntzinger Jean Paul
+49.6109332,6.1244519,#333,marker,The Gym Hamilius
+49.6052536,6.1251357,#333,marker,Yoga Spirit Studio
+49.6035256,6.0853284,#333,marker,Respirit Pilates
+49.76965,5.89587,#333,marker,ESCAPE - Studio de Massages - Les Meilleurs Massages au Luxembourg
+49.5881213,6.1430375,#333,marker,We Love Yoga
+49.5404471,6.0203101,#333,marker,Santulita
+49.607605,6.13587,#333,marker,Yoga com alma
+49.8153495,6.13332,#333,marker,Breath Of Yoga
+49.6011037,6.064437,#333,marker,CK Fitness Bertrange
+49.6092059,6.1007575,#333,marker,Yoga & mindful movement
+49.6074761,6.1240898,#333,marker,Laura Eyer Yoga
+49.7554794,6.1047156,#333,marker,Ton Rayonnement
+49.6102651,6.1066136,#333,marker,Sahaja Yoga Asbl
+49.6116233,6.1483124,#333,marker,STRETCH & YOGA CLUB "YOU"
+49.5873487,6.1013197,#333,marker,Iyengar Yoga Luxembourg
+49.6077785,6.1229121,#333,marker,FitParents Luxembourg
+49.6029639,6.1342033,#333,marker,The Lux Yoga Shop
+49.6127798,6.1411701,#333,marker,Fit Lab Luxembourg
+49.6136902,6.0707287,#333,marker,Vitaly-Fit
+49.6082761,6.0490466,#333,marker,Elate Wellbeing Luxembourg Sarls Sarls
+49.6018036,6.1293784,#333,marker,Flow Reconnect Your Self
+49.6119834,6.0756194,#333,marker,Fitcoaching Studio
+49.6114844,6.1332849,#333,marker,Shop Esoteric Scarabaeus
+49.6101073,6.1193085,#333,marker,Eyvaifos
+49.588031,6.118988,#333,marker,Factory 4 Fitness club & more
+49.6014,6.10066,#333,marker,Dance School Cathy Moes By Li Marteling
+49.5871383,6.1217192,#333,marker,Crossfit Valens
+49.58952,6.133535,#333,marker,Aeasi Asbl
+49.6933999,6.2476088,#333,marker,SCHMIT-CLOSTRE CLAUDE
+49.8153495,6.13332,#333,marker,Noémie 7ème Sens Tantra
+49.6163121,5.9494249,#333,marker,Gym Club Fit a Flott
+49.5936744,6.3098497,#333,marker,Mercure Luxembourg Kikuoka Golf and Spa
+49.6112115,6.0491773,#333,marker,Flashdance By Romain Philipp Propr. Dance4life Asbl
+49.6100557,6.0769782,#333,marker,INTERSPORT
+49.6102654,6.0493591,#333,marker,Centre sportif Niki Bettendorf
+49.6012908,6.0678017,#333,marker,BoConcept Luxembourg
+49.6075999,6.0773133,#333,marker,Hornbach Bertrange
+49.6110873,6.0727305,#333,marker,TRAFIC BERTRANGE
+49.6057212,6.0518886,#333,marker,KindyROO
+49.517408,6.1010179,#333,marker,Wellness Centre Être Naturel Beauty By Mélanie
+49.4786888,6.0858319,#333,marker,Vitalys Formation - Belgique, Luxembourg & Suisse
+49.5020908,5.9450797,#333,marker,South Ink Luxembourg
+49.5155753,6.0979444,#333,marker,An der schwemm
+49.5146,6.10566,#333,marker,Sophr'odyssey - Patricia Ferrante
+49.4723925,6.0740449,#333,marker,Sports hall Annexe Alliance
+49.471481,6.084369,#333,marker,Pattyrelax
+49.5024862,5.9441457,#333,marker,Yoga 2 Home
+49.8389492,6.0969316,#333,marker,Basic-Fit Ettelbruck 24/7
+49.9756,5.84461,#333,marker,Sentosa
+49.4595932,6.0319298,#333,marker,D.n.a Coaching
+49.5219465,5.8753195,#333,marker,Di' Healing Temple - Thérapies & Yoga
+49.5142182,5.8916913,#333,marker,Differdange Sports Center
+49.5146675,5.8908991,#333,marker,GRS Differdange - Gymnastique
+49.8479596,6.1014636,#333,marker,Dance School Elena Chorkina
+49.839554,6.0940747,#333,marker,Dojo Ettelbruck

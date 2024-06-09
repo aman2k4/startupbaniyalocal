@@ -101,7 +101,7 @@ def plot_charts(subtitle_duration):
 
 
 
-subtitles = parse_srt('reel15_new.srt')
+subtitles = parse_srt('sub2.srt')
 subtitle_duration = calculate_subtitle_duration(subtitles)
 # Call the function to plot charts
 plot_charts(subtitle_duration)

@@ -1,1 +1,12 @@
 venv/
+manim/*
+media/*
+*.mp4
+*.png
+*.svg
+*.mov
+*.mp3
+*.srt
+*.ttf
+*.ttf.gz
+.DS_Store

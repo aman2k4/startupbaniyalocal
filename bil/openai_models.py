@@ -5,6 +5,14 @@ import PyPDF2
 from pdfminer.high_level import extract_text
 import fitz  # PyMuPDF
 import pdfplumber
+import os
+from dotenv import load_dotenv
+
+# Add this at the beginning of your file, after the imports
+load_dotenv()
+
+
+
 
 
 def extract_pdf_text_pypdf2(pdf_path):
@@ -65,12 +73,16 @@ def extract_pdf_text(pdf_path):
 
 def parse_credit_card_statement(
     pdf_path: str,
-    model_name: str = "model-identifier",
-    max_tokens: int = 20000,
+    model_name: str = "gpt-4o-2024-08-06",
+    max_tokens: int = 5000,
     temperature: float = 0,
 ) -> dict:
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        print("Error: OPENAI_API_KEY not found in environment variables or .env file.")
+        return None
 
-    client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
+    client = OpenAI(api_key=api_key)
 
     # Extract text from PDF
     pdf_text = extract_pdf_text(pdf_path)
@@ -89,8 +101,6 @@ def parse_credit_card_statement(
     Include all available details such as account information, card details, transactions, and totals.
 
     Dates are in the format DD/MM/YYYY. For example, 15/10/2024. The year is always 4 digits either 2024 or 2023.
-
-    Each statement has a total written at the end. Sometime it is called "Movements total".
 
     Statement text:
     {pdf_text}
@@ -123,13 +133,13 @@ def parse_credit_card_statement(
 
 
 if __name__ == "__main__":
-    pdf_path = "statements/Unknown-13.pdf"
+    pdf_path = "statements/Unknown-5.pdf"
     
-    result = parse_credit_card_statement(pdf_path, model_name="")
+    result = parse_credit_card_statement(pdf_path, model_name="gpt-4o-mini")
     if result:
         print(json.dumps(result, ensure_ascii=False, indent=2))
         # save results in json file with same name as pdf file
-        with open(f"{pdf_path.split('.')[0]}.json", "w") as file:
+        with open(f"{pdf_path.split('.')[0]}_openai.json", "w") as file:
             json.dump(result, file, ensure_ascii=False, indent=2)
     else:
         print("Failed to parse the credit card statement.")

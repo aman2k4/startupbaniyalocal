@@ -43,6 +43,7 @@ def call_llm_for_tagging(row, index):
     print(f"Category: {analysis['category']}")
     print(f"Description: {analysis['description']}")
     print(f"Is Recurring: {analysis['is_recurring']}")
+    print(f"transaction_type: {analysis['transaction_type']}")
     
     input("Press Enter to continue to the next transaction...")
     
@@ -83,4 +84,4 @@ def process_cashbook(filepath, output_filepath):
 
 # Example usage:
 if __name__ == "__main__":
-    process_cashbook("yamfinance/small.csv", "yamfinance/augmented_cashbook.csv")
+    process_cashbook("small.csv", "augmented_cashbook.csv")

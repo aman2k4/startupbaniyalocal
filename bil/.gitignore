@@ -1,5 +1,0 @@
-*.pdf
-json/*.json
-csv/*.csv
-
-.env

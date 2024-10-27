@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 from yam_gemini import analyze_transaction
 
 # Function to read the cashbook file
@@ -53,32 +54,48 @@ def call_llm_for_tagging(row, index):
 def augment_cashbook_with_tags(df):
     """
     Adds new columns 'Category', 'Description', and 'Is Recurring' to the DataFrame with analysis from the LLM.
+    Only processes rows that haven't been analyzed yet.
     """
-    analyses = []
+    # Check if the columns already exist, if not, create them
+    if 'Category' not in df.columns:
+        df['Category'] = ''
+    if 'AI Description' not in df.columns:
+        df['AI Description'] = ''
+    if 'Is Recurring' not in df.columns:
+        df['Is Recurring'] = ''
+
     for index, row in df.iterrows():
-        analysis = call_llm_for_tagging(row, index)
-        analyses.append(analysis)
-    
-    df['Category'] = [a['category'] for a in analyses]
-    df['AI Description'] = [a['description'] for a in analyses]
-    df['Is Recurring'] = [a['is_recurring'] for a in analyses]
+        # Check if the row has already been processed
+        if pd.isna(row['Category']) or pd.isna(row['AI Description']) or pd.isna(row['Is Recurring']):
+            analysis = call_llm_for_tagging(row, index)
+            df.at[index, 'Category'] = analysis['category']
+            df.at[index, 'AI Description'] = analysis['description']
+            df.at[index, 'Is Recurring'] = analysis['is_recurring']
+        else:
+            print(f"Skipping already processed transaction {index + 1}")
+
     return df
 
 # Main function to process the file and add tags
 def process_cashbook(filepath, output_filepath):
     """
-    Reads the cashbook file, adds tags, and saves the augmented file.
+    Reads the cashbook file or the existing augmented file, adds tags to unprocessed rows, and saves the augmented file.
     """
-    # Step 1: Read the file
-    df = read_cashbook(filepath)
+    # Check if the augmented file already exists
+    if os.path.exists(output_filepath):
+        print(f"Reading existing augmented file: {output_filepath}")
+        df = pd.read_csv(output_filepath, sep=';')
+    else:
+        print(f"Reading original file: {filepath}")
+        df = read_cashbook(filepath)
     
-    print(f"Read {len(df)} transactions from {filepath}")
+    print(f"Read {len(df)} transactions")
     input("Press Enter to start processing...")
     
-    # Step 2: Augment with tags
+    # Augment with tags
     df_augmented = augment_cashbook_with_tags(df)
     
-    # Step 3: Save the augmented file
+    # Save the augmented file
     df_augmented.to_csv(output_filepath, index=False, sep=';')
     print(f"\nAugmented file saved to {output_filepath}")
 

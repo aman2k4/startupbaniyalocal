@@ -6,5 +6,5 @@
 *.xls
 
 .env
-
+yamfinance/.env
 __pycache__

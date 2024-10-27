@@ -53,7 +53,7 @@ def call_llm_for_tagging(row, index):
 # Function to augment the DataFrame with tags from LLM
 def augment_cashbook_with_tags(df):
     """
-    Adds new columns 'Category', 'Description', and 'Is Recurring' to the DataFrame with analysis from the LLM.
+    Adds new columns 'Category', 'AI Description', and 'Is Recurring' to the DataFrame with analysis from the LLM.
     Only processes rows that haven't been analyzed yet.
     """
     # Check if the columns already exist, if not, create them
@@ -66,7 +66,7 @@ def augment_cashbook_with_tags(df):
 
     for index, row in df.iterrows():
         # Check if the row has already been processed
-        if pd.isna(row['Category']) or pd.isna(row['AI Description']) or pd.isna(row['Is Recurring']):
+        if row['Category'] == '' or row['AI Description'] == '' or row['Is Recurring'] == '':
             analysis = call_llm_for_tagging(row, index)
             df.at[index, 'Category'] = analysis['category']
             df.at[index, 'AI Description'] = analysis['description']
@@ -88,6 +88,11 @@ def process_cashbook(filepath, output_filepath):
     else:
         print(f"Reading original file: {filepath}")
         df = read_cashbook(filepath)
+    
+    # Ensure new columns exist and are initialized properly
+    for col in ['Category', 'AI Description', 'Is Recurring']:
+        if col not in df.columns:
+            df[col] = ''
     
     print(f"Read {len(df)} transactions")
     input("Press Enter to start processing...")
